@@ -71,7 +71,7 @@ props.globals.initNode("/environment/aircraft-effects/factorsurfacetemprad", .01
 
 #factor used to increment condensation over time
 #smaller number will slow effect
-props.Node.new({ "/environment/aircraft-effects/factorcondensationr":0 });
+props.Node.new({ "/environment/aircraft-effects/factorcondensation":0 });
 props.globals.initNode("/environment/aircraft-effects/factorcondensation", .01, "DOUBLE");
 
 var weather_effects_loop = func {

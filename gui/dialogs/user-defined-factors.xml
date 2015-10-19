@@ -257,15 +257,15 @@
 				<halign>left</halign>
 			</text>
 			<input>
-				<name>factorairtemprad</name>
+				<name>factordewpointtemprad</name>
 				<live>true</live>
 				<halign>right</halign>
 				<stretch>true</stretch>
 				<pref-width>50</pref-width>
-				<property>/environment/aircraft-effects/factorairtemprad</property>
+				<property>/environment/aircraft-effects/factordewpointtemprad</property>
 				<binding>
 				    <command>dialog-apply</command>
-				    <object-name>factorairtemprad</object-name>
+				    <object-name>factordewpointtemprad</object-name>
 				</binding>
 			</input>
 
