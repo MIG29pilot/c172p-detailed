@@ -51,11 +51,21 @@
 		<group>
 
 		    <layout>hbox</layout>
+		    <halign>left</halign>
+		    <empty><stretch>false</stretch></empty>
+			<text>
+				<label>Internal Air Temperature Factor:</label>
+				<halign>left</halign>
+			</text>
+
+		</group>
+
+		<group>
+
+		    <layout>hbox</layout>
 		    <halign>justify</halign>
 		    <empty><stretch>false</stretch></empty>
-
-			<text>
-				<label>Internal Air Temprature Factor:</label>
+            <text>
 				<label>default = .04</label>
 				<halign>left</halign>
 			</text>
@@ -77,11 +87,21 @@
 		<group>
 
 		    <layout>hbox</layout>
+		    <halign>left</halign>
+		    <empty><stretch>false</stretch></empty>
+			<text>
+				<label>Internal Surface Temperature Factor:</label>
+				<halign>left</halign>
+			</text>
+
+		</group>
+
+		<group>
+
+		    <layout>hbox</layout>
 		    <halign>justify</halign>
 		    <empty><stretch>false</stretch></empty>
-
 			<text>
-				<label>Internal Surface Temprature Factor:</label>
 				<label>default = .03</label>
 				<halign>left</halign>
 			</text>
@@ -103,11 +123,22 @@
 		<group>
 
 		    <layout>hbox</layout>
+		    <halign>left</halign>
+		    <empty><stretch>false</stretch></empty>
+			<text>
+				<label>Airflow Air Temperature Factor:</label>
+				<halign>left</halign>
+			</text>
+
+		</group>
+
+		<group>
+
+		    <layout>hbox</layout>
 		    <halign>justify</halign>
 		    <empty><stretch>false</stretch></empty>
 
 			<text>
-				<label>Airflow Air Tempratue Factor:</label>
 				<label>default = .03</label>
 				<halign>left</halign>
 			</text>
@@ -129,11 +160,23 @@
 		<group>
 
 		    <layout>hbox</layout>
+		    <halign>left</halign>
+		    <empty><stretch>false</stretch></empty>
+
+			<text>
+				<label>Airflow Surface Temperature Factor:</label>
+				<halign>left</halign>
+			</text>
+
+		</group>
+
+		<group>
+
+		    <layout>hbox</layout>
 		    <halign>justify</halign>
 		    <empty><stretch>false</stretch></empty>
 
 			<text>
-				<label>Airflow Surface Temprature Factor:</label>
 				<label>default = .02</label>
 				<halign>left</halign>
 			</text>
@@ -155,11 +198,23 @@
 		<group>
 
 		    <layout>hbox</layout>
+		    <halign>left</halign>
+		    <empty><stretch>false</stretch></empty>
+
+			<text>
+				<label>Radiant Air Temperature Factor:</label>
+				<halign>left</halign>
+			</text>
+
+		</group>
+
+		<group>
+
+		    <layout>hbox</layout>
 		    <halign>justify</halign>
 		    <empty><stretch>false</stretch></empty>
 
 			<text>
-				<label>Radiant Air Temprature Factor:</label>
 				<label>default = .01</label>
 				<halign>left</halign>
 			</text>
@@ -181,11 +236,23 @@
 		<group>
 
 		    <layout>hbox</layout>
+		    <halign>left</halign>
+		    <empty><stretch>false</stretch></empty>
+
+			<text>
+				<label>Radiant Dewpoint Temperature Factor:</label>
+				<halign>left</halign>
+			</text>
+
+		</group>
+
+		<group>
+
+		    <layout>hbox</layout>
 		    <halign>justify</halign>
 		    <empty><stretch>false</stretch></empty>
 
 			<text>
-				<label>Radiant Dewpoint Temprature Factor:</label>
 				<label>default = .01</label>
 				<halign>left</halign>
 			</text>
@@ -207,11 +274,23 @@
 		<group>
 
 		    <layout>hbox</layout>
+		    <halign>left</halign>
+		    <empty><stretch>false</stretch></empty>
+
+			<text>
+				<label>Radiant Surface Temperature Factor:</label>
+				<halign>left</halign>
+			</text>
+
+		</group>
+
+		<group>
+
+		    <layout>hbox</layout>
 		    <halign>justify</halign>
 		    <empty><stretch>false</stretch></empty>
 
 			<text>
-				<label>Radiant Surface Temprature Factor:</label>
 				<label>default = .01</label>
 				<halign>left</halign>
 			</text>
@@ -233,11 +312,23 @@
 		<group>
 
 		    <layout>hbox</layout>
-		    <halign>justify</halign>
+		    <halign>left</halign>
 		    <empty><stretch>false</stretch></empty>
 
 			<text>
 				<label>Internal Condenstation Factor:</label>
+				<halign>left</halign>
+			</text>
+
+		</group>
+
+		<group>
+
+		    <layout>hbox</layout>
+		    <halign>justify</halign>
+		    <empty><stretch>false</stretch></empty>
+
+			<text>
 				<label>default = .01</label>
 				<halign>left</halign>
 			</text>
